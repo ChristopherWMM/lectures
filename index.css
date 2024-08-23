@@ -1,81 +1,52 @@
 body, h1, ul, li {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
-    font-family: 'mr-eaves-xl-sans', Arial, sans-serif;
+    font-family: 'Source sans', Arial, sans-serif;
     font-size: 16px;
-    line-height: 1.6;
-    color: #ffffff;
-    background-color: #000000;
+    line-height: 1.5;
+    color: #fff;
     padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-
-.container {
-    max-width: 800px;
-    width: 100%;
-    padding: 30px;
-    background-color: #000000;
-    border: 2px solid #ffffff;
-    border-radius: 8px;
-    text-align: center;
-}
-
-h1 {
-    font-family: 'mr-eaves-xl-sans', Arial, sans-serif;
-    font-size: 2.5em;
-    color: #ffffff;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    border-bottom: 4px solid #ffffff;
-    padding-bottom: 10px;
 }
 
 ul {
     list-style-type: none;
     padding-left: 0;
-    margin-top: 20px;
 }
 
 li {
-    margin-bottom: 15px;
-    font-size: 1.2em;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    margin-bottom: 10px;
 }
 
 a {
     text-decoration: none;
-    color: #ffffff;
-    background-color: #444444;
-    display: block;
-    padding: 10px 15px;
-    border-radius: 4px;
-    transition: background-color 0.3s, transform 0.2s;
-    text-align: center;
+    color: #003366;
     font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom-color 0.3s;
 }
 
 a:hover {
-    background-color: #ffffff;
-    color: #000000;
-    transform: scale(1.05);
+    border-bottom-color: #003366;
 }
 
-footer {
-    margin-top: 40px;
-    font-size: 0.9em;
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5em;
     color: #ffffff;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    background-color: #333333;
-    padding: 15px;
-    border-top: 2px solid #ffffff;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    background-color: #000;
 }
