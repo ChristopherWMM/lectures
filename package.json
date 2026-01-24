@@ -8,12 +8,12 @@
     "export": "slidev export"
   },
   "dependencies": {
-    "@slidev/cli": "^51.1.0",
+    "@slidev/cli": "^0.49.28",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
     "slidev-addon-excalidraw": "^1.0.4",
     "slidev-addon-python-runner": "^0.1.3",
-    "slidev-theme-neversink": "^0.3.4",
+    "slidev-theme-neversink": "^0.4.1",
     "vue": "^3.4.38"
   },
   "devDependencies": {
