@@ -254,7 +254,45 @@ print("The solutions are", quadratic_plus_solution(1, 4, 5), "and", quadratic_mi
 ```
 
 ---
-layout: top-title
+layout: top-title-two-cols
+color: bowdoin-title
+---
+
+:: title ::
+
+# Function Documentation
+
+:: left ::
+
+#### While we tend to use regular comments to provide extra explanation about _why_ we are doing something in our code
+
+<br>
+
+#### We will use ==function docstrings== to describe in detail _what_:
+- #### a function does
+- #### a function accepts as parameters
+- #### a function returns
+
+:: right ::
+
+```python {monaco-run} {autorun:false, editorOptions: { lineNumbers:'on', fontSize:12}}
+def quadratic_plus_solution(a, b, c):
+  '''
+  Computes the positive solution to a quadratic
+  equation in the following form:
+    a*x^2 + b * x + c
+  '''
+  b_squared = b ** 2
+  four_a_c = 4 * a * c
+  two_a = a * 2
+
+  return (-b + (b_squared - four_a_c) ** 0.5) / two_a
+```
+
+<twemoji-thinking-face v-drag="[787,403,96,89]" />
+
+---
+layout: top-title-two-cols
 color: bowdoin-title
 ---
 
@@ -262,22 +300,38 @@ color: bowdoin-title
 
 # Printing within a function vs Returning
 
-:: content ::
+:: left ::
 
-#### It is extremely important that we understand the difference between these two!
-
-```python {monaco-run} {autorun:false, editorOptions: { lineNumbers:'on'}}
-def returns(a):
-    return 2 * a
-
-def prints(a):
-    print(2 * a)
+```python {monaco-run} {autorun:false, editorOptions: { lineNumbers:'on', fontSize:11}}
+def returns(local_a):
+    '''
+    This function returns double whatever is given.
+    '''
+    return 2 * local_a
 
 a = 5
 
 returns(a)
-prints(a)
 
 print(returns(a))
+```
+
+:: right ::
+```python {monaco-run} {autorun:false, editorOptions: { lineNumbers:'on', fontSize:11}}
+def prints(local_a):
+    '''
+    This function prints double whatever is given
+    to the terminal.
+    '''
+    print(2 * local_a)
+
+a = 5
+
+prints(a)
+
 print(prints(a))
 ```
+
+:: default ::
+
+<v-drag pos="198,355,589,32"><h2>It is extremely important that we understand the difference between these two!</h2></v-drag>
