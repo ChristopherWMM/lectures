@@ -185,6 +185,10 @@ color: bowdoin-title
 ```python {monaco-run} {autorun:true, editorOptions: { lineNumbers:'on', fontSize: 16}}
 message = "This is on one line
 This is on another"
+
+# We can make special strings that allow us to do this though!
+message = """This string is split across lines!
+Wow! Look at that!"""
 ```
 
 <br>
@@ -252,6 +256,7 @@ color: bowdoin-title
 
 ```python {monaco} {editorOptions: {lineNumbers:'on', fontSize:20}}
 name = input("What is your name? ")
+# Note the space here!          ^
 
 print("Hello, " + name + "!")
 ```
@@ -273,7 +278,7 @@ color: bowdoin-title
 
 <br>
 
-### Remmeber, the input entered by a user is going to be `returned` as `str` data.
+### Remember, the input entered by a user is going to be `returned` as `str` data.
 
 <br>
 
@@ -290,7 +295,7 @@ print("Hello, " + name + ", how does it feel to be" + str(age) + "?")
 
 <br>
 
-### Notice that you may have to convert the value back to text when you need to display it!
+### Notice that you may have to convert the value back when you need to display it!
 
 <twemoji-thinking-face v-drag="[401,448,55,55]"/>
 
