@@ -68,7 +68,7 @@ class_cancelled: bool = False
 
 time: int = 754 # Stores the current time in minutes (754 = 12:34pm)
 
-is_class_time: bool = time >= 700 and time <= 785 # (700 = 11:40am, 785 = 1:05pm)
+is_class_time: bool = time >= 605 and time <= 690 # (605 = 10:05am, 690 = 11:30am)
 is_class_day: bool = today == "Monday" or today == "Wednesday" or today == "Friday"
 
 is_during_1101: bool = is_class_time and is_class_day and not class_cancelled
