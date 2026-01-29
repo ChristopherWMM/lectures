@@ -1,7 +1,7 @@
 ---
 layout: intro
 theme: neversink
-colorSchema: auto
+color: bowdoin
 download: true
 routerMode: hash
 favicon: https://avatars.githubusercontent.com/u/9260792
