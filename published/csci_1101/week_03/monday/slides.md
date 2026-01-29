@@ -225,7 +225,7 @@ color: bowdoin-title
 ```python {monaco-run} {autorun:true, editorOptions: { lineNumbers:'on', fontSize:14}}
 password: str = "1234"
 
-if password == "1101S25":
+if password == "1101S26":
     print("Welcome to our CodeRunner! ✅")
 else:
     print("That password is incorrect! ❌")
