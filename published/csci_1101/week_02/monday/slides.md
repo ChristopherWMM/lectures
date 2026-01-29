@@ -2,6 +2,7 @@
 layout: cover
 theme: neversink
 color: bowdoin
+download: true
 routerMode: hash
 favicon: https://avatars.githubusercontent.com/u/9260792
 ---
