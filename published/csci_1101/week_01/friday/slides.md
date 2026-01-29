@@ -4,6 +4,7 @@ theme: neversink
 color: bowdoin
 download: true
 routerMode: hash
+title: Expressions, Variables, and Printing
 favicon: https://avatars.githubusercontent.com/u/9260792
 ---
 
