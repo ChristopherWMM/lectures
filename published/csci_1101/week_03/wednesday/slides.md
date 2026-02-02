@@ -2,6 +2,7 @@
 layout: intro
 theme: neversink
 color: bowdoin
+title: Logical Operators and Complex Conditions
 download: true
 routerMode: hash
 favicon: https://avatars.githubusercontent.com/u/9260792
