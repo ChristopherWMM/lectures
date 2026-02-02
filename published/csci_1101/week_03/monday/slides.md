@@ -120,7 +120,7 @@ x = 5
 x == 5
 ```
 
-### `=` asks the computer to check if `x` is equal to `5`.
+### `==` asks the computer to check if `x` is equal to `5`.
 ### We call this the ==equal-to== operator!
 
 <br>
@@ -255,7 +255,7 @@ color: bowdoin-title
 <br>
 
 ```python {monaco-run} {autorun:true, editorOptions: { lineNumbers:'on'}}
-def check_number(num: int) -> bool:
+def check_number(num: int) -> str:
     if num == 0:
         return f"{num} is zero!"
     else:
