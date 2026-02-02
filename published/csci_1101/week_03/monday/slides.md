@@ -2,6 +2,7 @@
 layout: intro
 theme: neversink
 color: bowdoin
+title: Booleans and Asking Questions
 download: true
 routerMode: hash
 favicon: https://avatars.githubusercontent.com/u/9260792
