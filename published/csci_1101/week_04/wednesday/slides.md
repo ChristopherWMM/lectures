@@ -181,7 +181,7 @@ color: bowdoin-title
 
 ```python {monaco-run} {editorOptions: {lineNumbers:'on', fontSize:12}}
 tuple_1: tuple[float] = (2.0, 4.0, 6.0)
-tuple_2: tuple[str] = (7, 3, 1)
+tuple_2: tuple[int] = (7, 3, 1)
 
 # We can use the in operator to check if something is in a tuple
 if 2 in tuple_1:
@@ -294,14 +294,18 @@ color: bowdoin-title
 
 :: content ::
 
+#### Most of these methods do not return anything!
+
+<br>
+
 | Method        | Description                                                                 |
 | :-----------: | :-------------------------------------------------------------------------: |
 | `my_list.append(v)`   | Adds the given value `v` to the end of `my_list` |
-| `my_list.insert(i, v)`   | Adds the given value `v` to `my_list` at the index `i` |
+| `my_list.insert(i, v)` | Adds the given value `v` to `my_list` at the index `i` |
 | `my_list.remove(v)`   | Removes the first occurrence of the value `v` from `my_list` |
-| `my_list.pop(i)`| Removes the element at the index `i` from `my_list` |
-| `my_list.clear()`  | Removes everything from `my_list`  |
-| `my_list.reverse()`  | Reverses the order of the elements in `my_list`  |
+| `my_list.pop(i)`| Removes <u>and returns</u> the element at the index `i` from `my_list` |
+| `my_list.clear()`  | Removes everything from `my_list` |
+| `my_list.reverse()`  | Reverses the order of the elements in `my_list` |
 | `my_list.sort()`  | Attempts to sort everything in `my_list` in ascending order |
 
 ---
