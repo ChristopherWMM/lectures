@@ -2,6 +2,8 @@
 layout: intro
 theme: neversink
 color: bowdoin
+title: Introduction to While Loops
+download: true
 routerMode: hash
 favicon: https://avatars.githubusercontent.com/u/9260792
 ---
