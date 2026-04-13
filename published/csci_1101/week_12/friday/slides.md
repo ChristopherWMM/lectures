@@ -2,6 +2,8 @@
 layout: intro
 theme: neversink
 color: bowdoin
+title: Formatting with f-strings
+download: true
 routerMode: hash
 favicon: https://avatars.githubusercontent.com/u/9260792
 ---
