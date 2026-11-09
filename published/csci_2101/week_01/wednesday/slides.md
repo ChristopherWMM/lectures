@@ -212,7 +212,7 @@ def c(d: int = 0) -> int:
 
 a()
 b()
-print(c())
+print(c()) # Try to add a value for d!
 ```
 
 
