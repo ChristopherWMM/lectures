@@ -206,6 +206,7 @@ def b() -> None:
 
 # Functions cannot be overloaded!
 # Add default arguments instead!
+# if not specified, d will be 0!
 def c(d: int = 0) -> int:
   return d + 5
 
