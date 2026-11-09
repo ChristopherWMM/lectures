@@ -196,6 +196,8 @@ class Main {
 # Python
 
 ```python {monaco-run} {editorOptions: {lineNumbers:'on', fontSize:13}}
+# No accessibility modifiers!
+# Everything is public!
 def a() -> None:
   print("Called a()")
 
